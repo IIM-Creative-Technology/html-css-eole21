@@ -1,0 +1,348 @@
+/*PAGE 1*/
+body{
+	background-color: #FFF0F5
+}
+header div{
+	background-color: pink;
+}
+.debut{
+	display: flex;
+	justify-content: flex-start;
+	width: 30%;
+	justify-content: space-around;
+	list-style-type: none;
+
+}
+
+h1{
+	position: center;
+	text-align: center;
+	font-size: 4em;
+}
+
+header p{
+	text-align: center;
+	font-size: 1em;
+	text-decoration: underline pink;
+}
+
+
+
+button{
+	width:150px;
+	height:150px;
+	background:pink;
+	box-shadow:2px 2px 8px black ;
+	font:bold 12px Arial;
+	border-radius:50%;
+	color:#555;
+	margin-left: 190px;
+	margin-top: 50px;
+	text-align: center;
+
+
+}
+
+
+
+@media (hover: hover) {
+  button:hover {
+    background: #FFE4E1;
+  }
+}
+
+/*PAGE 2*/
+ .body2{
+	background-color: #556B2F;
+}
+.header2{
+	display: block;
+}
+.header2 button{
+	width:100px;
+	height:100px;
+	background:	#808000;
+	box-shadow:2px 2px 8px black ;
+	font:bold 9.5px Arial;
+	border-radius:50%;
+	color:#555;
+	margin-left: 50px;
+	margin-top: 10px;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	
+
+}
+@media (hover: hover) {
+  .header2:hover {
+    background: #FFD700;
+  }
+}
+
+.B{
+	text-align: center;
+	font-size: 2.2em;
+	text-decoration: underline #FFD700 ;
+}
+
+
+.nav2 h1{
+	position: center;
+	text-align: center;
+	font-size: 3em;
+
+}
+
+p{
+	text-align: center;
+}
+
+.reponse{
+	display: block;
+}
+.reponse button{
+	width:100px;
+	height:100px;
+	background:	#808000;
+	box-shadow:2px 2px 8px black ;
+	font:bold 9.5px Arial;
+	border-radius:10%;
+	color:#555;
+	margin-left: 200px;
+	margin-top: 20px;
+	text-align: center;
+	
+	
+	
+}
+
+@media (hover: hover) {
+  .reponse button:hover {
+    background: #8B4513;
+  }
+}
+
+/*PAGE 3*/
+
+
+.header3{
+	display: block;
+}
+.header3 button{
+	width:100px;
+	height:100px;
+	background:	pink;
+	box-shadow:2px 2px 8px black ;
+	font:bold 9.5px Arial;
+	border-radius:50%;
+	color:#555;
+	margin-left: 50px;
+	margin-top: 10px;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	
+
+}
+@media (hover: hover) {
+  .header3 button:hover {
+    background: #FFE4E1;
+  }
+}
+
+
+
+
+
+
+table {
+border: medium solid black;
+border-collapse: collapse;
+width: 100%;
+
+
+
+}
+th {
+font-family: monospace;
+border: thin solid black;
+width: 60%;
+padding: 5px;
+background-color: #FFE4E1;
+
+}
+td {
+font-family: sans-serif;
+border: thin solid black;
+width: 60%;
+padding: 5px;
+text-align: center;
+background-color: #ffffff;
+
+}
+
+.felicitation{
+	font-size: 1.5em;
+}
+
+/*PAGE ACCUEIL*/
+
+
+#container h2{
+	position: center;
+	text-align: center;
+	font-size: 3em;
+}
+
+p {
+  margin-top: 0px;
+}
+ 
+fieldset {
+  margin-bottom: 15px;
+  padding: 10px;
+}
+ 
+legend {
+  padding: 0px 3px;
+  font-weight: bold;
+  font-variant: small-caps;
+}
+ 
+label {
+  width: 110px;
+  display: inline-block;
+  vertical-align: top;
+  margin: 6px;
+}
+ 
+em {
+  font-weight: bold;
+  font-style: normal;
+  color: #f00;
+}
+ 
+input:focus {
+  background: #eaeaea;
+}
+ 
+input, textarea {
+  width: 249px;
+}
+ 
+textarea {
+  height: 100px;
+}
+ 
+select {
+  width: 254px;
+}
+ 
+input[type=checkbox] {
+  width: 10px;
+}
+ 
+input[type=submit] {
+  width: 150px;
+  padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Design ordi ou tablette*/
+
+@media  screen
+and (min-width: 512px)
+ {
+
+/*page1*/
+	h1{
+		color: #FFE4E1;
+		font-size: 5em;
+	}
+
+header p{
+	font-size: 1.6em;
+
+}
+
+hr{
+	display: none;
+}
+
+
+
+button{
+	/*width:150px;
+	height:150px;
+	background:pink;
+	box-shadow:2px 2px 8px black ;
+	font:bold 12px Arial;
+	border-radius:50%;
+	color:#555;*/
+	margin-left: 250px;
+	/*margin-top: 50px;
+	text-align: center;*/
+
+
+}
+
+/*page2*/
+.header2{
+	display: flex;
+}
+
+
+
+.nav2 h1{
+	color: #8B4513;
+}
+
+.reponse {
+
+	display: flex;
+	justify-content: center;
+
+
+}
+
+/*PAGE 3*/
+.header3{
+	display: flex;
+}
+
+
+
+.felicitation{
+	text-decoration: underline #FFE4E1 ;
+}
+/*PAGE ACCUEIL*/
+
+#container h2{
+color: #FFE4E1;
+font-size: 5em;
+}
+
+
+
+
+
+
+
+
+
+
+
+}
+*/

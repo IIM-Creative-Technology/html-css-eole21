@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>acceuil</title>
+	<link rel="stylesheet"  href="css/style.css">
+</head>
+<body>
+
+
+	<h1>Inscrivez vous</h1>
+<!-- <form action="#"> -->
+  <p><i>Complétez le formulaire. Les champs marqué par </i><em>*</em> sont <em>obligatoires</em></p>
+  <fieldset>
+    <legend>Contact</legend>
+      <label for="nom">Nom <em>*</em></label>
+      <!-- //placeholder: indication grisée 
+      //required: il faut renseigner le champs sinon la validation est bloquée
+      //autofocus: le curseur est positionné dans cette case au chargement de la page -->
+      <input id="nom" placeholder="Eole Gauthe" autofocus="" required=""><br>
+      <label for="telephone">Portable</label>
+      <!-- // type="tel": bascule le clavier sur un smartphone
+      // pattern: expression régulière à vérifier pour pouvoir valider -->
+      <input id="telephone" type="tel" placeholder="06xxxxxxxx" pattern="06[0-9]{8}"><br>
+      <label for="email">Email <em>*</em></label>
+      <input id="email" type="email" placeholder="prenom.nom@polytechnique.edu" required="" pattern="[a-zA-Z]*.[a-zA-Z]*@polytechnique.edu"><br>
+  </fieldset>
+<!-- </form> -->
+  <p>OU</p>
+  
+  	<fieldset>
+
+
+
+	<div id="container">
+            <!-- zone de connexion -->
+            
+            <!-- <form action="verification.php" method="POST"> -->
+                <h2>Connexion</h2>
+                
+                <label><b>Nom d'utilisateur</b></label>
+                <input type="text" placeholder="Entrer le nom d'utilisateur" name="username" required>
+
+                <label><b>Mot de passe</b></label>
+                <input type="password" placeholder="Entrer le mot de passe" name="password" required>
+
+                <input type="submit" id='submit' value='LOGIN' >
+                <!-- <?php
+                if(isset($_GET['erreur'])){
+                    $err = $_GET['erreur'];
+                    if($err==1 || $err==2)
+                        echo "<p style='color:red'>Utilisateur ou mot de passe incorrect</p>";
+                }
+                ?> -->
+            <!-- </form> -->
+        </div>
+</fieldset>
+</body>
+</html>
